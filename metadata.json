@@ -1,0 +1,6 @@
+{
+  "name": "Dainamax Notebooks",
+  "description": "Premium personalized spiral notebooks with dotted pages for artists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

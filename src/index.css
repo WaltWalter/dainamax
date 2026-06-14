@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-velvet-dark: #0A0A0A;
+  --color-velvet-light: #111111;
+  --color-smoke: #6B6B6B;
+  --color-rose: #D98286;
+  --color-rose-hover: #C96F74;
+  --color-blossom: #F5E4E2;
+  --color-silk: #E2D3CA;
+  --color-chiffon: #FAF9F8;
+  
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background-color: #FAF9F8;
+    color: #0A0A0A;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/* Custom precise typography classes based on the requested design system scale */
+.text-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 768px) {
+  .text-h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+.text-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+@media (min-width: 768px) {
+  .text-h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+.text-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .text-h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.text-body-lg {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-body {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.btn-typography {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+/* Notebook dots background pattern */
+.dot-grid-pattern {
+  background-image: radial-gradient(#6b6b6b33 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
